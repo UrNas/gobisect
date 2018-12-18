@@ -1,6 +1,6 @@
 # gobisect package
 
-[![Build Status](https://travis-ci.com/UrNas/gobisect.svg?branch=master)](https://travis-ci.com/UrNas/gobisect)
+[![Build Status](https://travis-ci.com/UrNas/gobisect.svg?branch=master)](https://travis-ci.com/UrNas/gobisect) [![Go Report Card](https://goreportcard.com/badge/github.com/UrNas/gobisect)](https://goreportcard.com/report/github.com/UrNas/gobisect)
 
 ### Bisect Algorithm Functions in Go
 
