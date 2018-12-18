@@ -63,7 +63,7 @@ func Test_InsertInt(t *testing.T) {
 	}
 }
 
-func Test_insertString(t *testing.T) {
+func Test_InsertString(t *testing.T) {
 	type args struct {
 		s     []string
 		idx   int
@@ -96,7 +96,7 @@ func Test_insertString(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := insertString(tt.args.s, tt.args.idx, tt.args.value); !reflect.DeepEqual(got, tt.want) {
+			if got := InsertString(tt.args.s, tt.args.idx, tt.args.value); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("insertString() = %v, want %v", got, tt.want)
 			}
 		})
