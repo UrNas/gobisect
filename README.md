@@ -1,5 +1,5 @@
 # gobisect package
-###Bisect Algorithm Functions in Go
+### Bisect Algorithm Functions in Go
 
 The purpose of Bisect algorithm is to find a position in slice where an element needs to be inserted to keep the list sorted.
 
